@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""
-Contains the function "wrtie_file"
-"""
+"""The write_file function container"""
 
 
 def write_file(filename="", text=""):
-    """returns the number of chars written to "filename" from "text" """
-    with open(filename, 'w', encoding='utf=8') as f:
-        return f.write(text)
+    """write_file writes a string to a text file.
+        Args:
+            filename (str): name of file.
+            text (str): text to be written.
+            Return: the number of characters written
+    """
+    with open(filename, "w", encoding="utf-8") as file:
+        files = file.write(text)
+        return (files)

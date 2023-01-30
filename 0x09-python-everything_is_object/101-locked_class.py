@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-# 101-locked_class.py
-
-"""Defines a locked class."""
+"""
+101-locked_class Module
+"""
 
 
 class LockedClass:
-    """
-    Prevent the user from instantiating new LockedClass attributes
-    for anything but attributes called 'first_name'.
-    """
-
-    __slots__ = ["first_name"]
+    """ class of locked class """
+    #  define the available slots that can be created
+    __slots__ = ('first_name')

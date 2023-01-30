@@ -1,10 +1,10 @@
-The ``1-my_list`` module
+From the 1-my-list Module
 ======================
 
 Using ``MyList``
 -------------------
 
-Importing the function from the module:
+Importing the function (Mylist) from the module:
         >>> MyList = __import__("1-my_list").MyList
 
 Checking for module docstring:

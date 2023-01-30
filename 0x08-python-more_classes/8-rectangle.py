@@ -22,7 +22,9 @@ class Rectangle:
         return rect_2
 
     def __init__(self, width=0, height=0):
-        """Initializes the rectangle"""
+        """initializing the rectangle by
+        settin the objet with width and height
+        """
         self.width = width
         self.height = height
         Rectangle.number_of_instances += 1

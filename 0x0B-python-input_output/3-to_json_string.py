@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-contain the JSON string
+The "to_json_string" function condition
 """
 
 import json

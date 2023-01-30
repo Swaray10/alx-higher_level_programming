@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the clas "Student"
+The clas "Student" container
 """
 
 

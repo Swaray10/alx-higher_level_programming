@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-contains the json str function
+The "from_json_string" function container
 """
 
 import json

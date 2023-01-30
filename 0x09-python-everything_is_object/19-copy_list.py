@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def copy_list(lista):
-    return lista.copy()
+def copy_list(lo):
+    return lo.copy()
